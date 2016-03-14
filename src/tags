@@ -1,0 +1,305 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+100	qsortd.f90	/^100 ind(k+1) = ind(k)$/;"	l	file:
+100	sann.f90	/^ 100 format(I4, I3, I4, 1x, 3F7.3)$/;"	l	file:
+1000	sann.f90	/^ 1000 continue$/;"	l	file:
+20	qsortd.f90	/^20 IF (i >= j) GO TO 70$/;"	l	file:
+30	qsortd.f90	/^30 k = i$/;"	l	file:
+300	sann.f90	/^ 300 format(I4,1x,A1,1x,A1,1x,3F7.3, 4x, F6.2)$/;"	l	file:
+310	sann.f90	/^ 310 format(I4,1x,A1,1x,A1,1x,3F7.3,2x,F8.4,2x,F8.4,4x, F6.2)$/;"	l	file:
+40	qsortd.f90	/^40 itt = ind(l)$/;"	l	file:
+400	sann.f90	/^ 400 format(I4,1x,A1,1x,A1,1x,2F7.3, 4x, F6.2)$/;"	l	file:
+50	qsortd.f90	/^50 l = l - 1$/;"	l	file:
+500	sann.f90	/^ 500 format(I4,1x,A1,1x,A1,1x,300F6.3)$/;"	l	file:
+60	qsortd.f90	/^60 k = k + 1$/;"	l	file:
+600	sann.f90	/^ 600 format(I4,1x,300F7.3)$/;"	l	file:
+650	sann.f90	/^ 650 format(I4,1x,F8.3,1x,F10.5,1x,300F8.3)$/;"	l	file:
+70	qsortd.f90	/^70 m = m - 1$/;"	l	file:
+700	sann.f90	/^ 700 format(I4,1x,A1,1x,A1,1x,F8.4,2x,F8.4,4x,F6.2)$/;"	l	file:
+80	qsortd.f90	/^80 IF (j-i >= 11) GO TO 30$/;"	l	file:
+90	qsortd.f90	/^90 i = i + 1$/;"	l	file:
+a3only	io.f90	/^ logical :: a3only /;"	v	module:io
+acc	params.f90	/^ integer(2),allocatable :: acc(/;"	v	module:params
+amino	sacc.f90	/^ character(1) :: amino(/;"	v	module:sacc
+amino20	share.f90	/^ character(20) :: amino20 /;"	v	module:share
+amino22	share.f90	/^ character(23) :: amino22 /;"	v	module:share
+base	io.f90	/^ character(*), parameter  :: base /;"	v	module:io
+best	best.f90	/^module best$/;"	m
+bout21	sann.f90	/^ character(80) :: bout3, bout21,/;"	v	program:sann
+bout22	sann.f90	/^ character(80) :: bout3, bout21, bout22,/;"	v	program:sann
+bout23	sann.f90	/^ character(80) :: bout3, bout21, bout22, bout23,/;"	v	program:sann
+bout24	sann.f90	/^ character(80) :: bout3, bout21, bout22, bout23, bout24$/;"	v	program:sann
+bout3	sann.f90	/^ character(80) :: bout3,/;"	v	program:sann
+brout	sann.f90	/^ character(80) :: brout,/;"	v	program:sann
+bzout	sann.f90	/^ character(80) :: brout, bzout$/;"	v	program:sann
+ck2dir	sann.f90	/^ character(80):: ck2dir$/;"	v	program:sann
+close_neighbor_files	io.f90	/^ subroutine close_neighbor_files$/;"	s	module:io
+code	sann.f90	/^ character(80):: code$/;"	v	program:sann
+codes	params.f90	/^ character(5),allocatable :: codes(/;"	v	module:params
+create_dist_file	io.f90	/^ subroutine create_dist_file(/;"	s	module:io
+create_indx_file	io.f90	/^ subroutine create_indx_file(/;"	s	module:io
+create_neighbor_files	io.f90	/^ subroutine create_neighbor_files$/;"	s	module:io
+d	sann.f90	/^ real(4), allocatable      :: d(/;"	v	program:sann
+dave	sann.f90	/^ real(8)      :: dave,/;"	v	program:sann
+dbhome	io.f90	/^ character(100) :: dbhome /;"	v	module:io
+dbkind	params.f90	/^ integer(4) :: dbkind /;"	v	module:params
+dbkind_25	params.f90	/^ integer(4), parameter :: dbkind_25=/;"	v	module:params
+dbkind_30	params.f90	/^ integer(4), parameter :: dbkind_30=/;"	v	module:params
+dbkind_35	params.f90	/^ integer(4), parameter :: dbkind_35=/;"	v	module:params
+dbkind_40	params.f90	/^ integer(4), parameter :: dbkind_40=/;"	v	module:params
+dihfile	io.f90	/^ character(100) :: dihfile /;"	v	module:io
+dist	sann.f90	/^ real(4),allocatable      :: dist(/;"	v	program:sann
+dist2file	io.f90	/^ character(100) :: dist2file /;"	v	module:io
+distfile	io.f90	/^ character(100) :: distfile /;"	v	module:io
+dmax	sann.f90	/^ real(4)      :: dmin, dmax$/;"	v	program:sann
+dmin	sann.f90	/^ real(4)      :: dmin,/;"	v	program:sann
+dsig	sann.f90	/^ real(8)      :: dave, dsig$/;"	v	program:sann
+dsum	sann.f90	/^ real(8)      :: dsum,/;"	v	program:sann
+dsum2	sann.f90	/^ real(8)      :: dsum, dsum2$/;"	v	program:sann
+e0	sann.f90	/^ real(4)    :: e0 /;"	v	program:sann
+e25	best.f90	/^ real(4), parameter    :: e25 /;"	v	module:best
+e25s	best.f90	/^ real(4), parameter    :: e25s=/;"	v	module:best
+e25ss	best.f90	/^ real(4), parameter    :: e25ss=/;"	v	module:best
+e30	best.f90	/^ real(4), parameter    :: e30 /;"	v	module:best
+e30s	best.f90	/^ real(4), parameter    :: e30s=/;"	v	module:best
+e35	best.f90	/^ real(4), parameter    :: e35 /;"	v	module:best
+e35s	best.f90	/^ real(4), parameter    :: e35s=/;"	v	module:best
+e40	best.f90	/^ real(4), parameter    :: e40 /;"	v	module:best
+e40s	best.f90	/^ real(4), parameter    :: e40s=/;"	v	module:best
+eight	params.f90	/^ integer(1),allocatable :: eight(/;"	v	module:params
+elapsed_time	sann.f90	/^ real(4)      :: time_begin, time_end, elapsed_time,/;"	v	program:sann
+fdout	sann.f90	/^ character(80) :: frout, fpout, fzout, fdout$/;"	v	program:sann
+four	params.f90	/^ integer(1),allocatable :: four(/;"	v	module:params
+fout21	sann.f90	/^ character(80) :: fout3, fout21,/;"	v	program:sann
+fout22	sann.f90	/^ character(80) :: fout3, fout21, fout22,/;"	v	program:sann
+fout23	sann.f90	/^ character(80) :: fout3, fout21, fout22, fout23,/;"	v	program:sann
+fout24	sann.f90	/^ character(80) :: fout3, fout21, fout22, fout23, fout24$/;"	v	program:sann
+fout3	sann.f90	/^ character(80) :: fout3,/;"	v	program:sann
+fpout	sann.f90	/^ character(80) :: frout, fpout,/;"	v	program:sann
+frout	sann.f90	/^ character(80) :: frout,/;"	v	program:sann
+fzout	sann.f90	/^ character(80) :: frout, fpout, fzout,/;"	v	program:sann
+home	io.f90	/^ character(100) :: home /;"	v	module:io
+hwin	params.f90	/^ integer(4), parameter :: hwin=/;"	v	module:params
+i	params.f90	/^ in/;"	v	module:params
+i	sann.f90	/^ in/;"	v	program:sann
+iaa	sann.f90	/^ integer(1)   :: iaa$/;"	v	program:sann
+iargc	sann.f90	/^ integer(4)   :: nargs, iargc$/;"	v	program:sann
+ibegin	sann.f90	/^ integer(4)   :: nload,ibegin,/;"	v	program:sann
+idx	sann.f90	/^ integer(4)   :: idx,/;"	v	program:sann
+iend	sann.f90	/^ integer(4)   :: nload,ibegin,iend$/;"	v	program:sann
+ierr	sann.f90	/^ integer(4)   :: ierr,/;"	v	program:sann
+ii	params.f90	/^ integer(4),allocatable :: ii(/;"	v	module:params
+in_prof	io.f90	/^ integer(4), parameter :: in_prof /;"	v	module:io
+indx2file	io.f90	/^ character(100) :: indx2file /;"	v	module:io
+indxfile	io.f90	/^ character(100) :: indxfile /;"	v	module:io
+inffile	io.f90	/^ character(100) :: inffile /;"	v	module:io
+inprof	sann.f90	/^ character(200) :: inprof$/;"	v	program:sann
+io	io.f90	/^module io$/;"	m
+io_dih_db	io.f90	/^ integer(4), parameter :: io_dih_db /;"	v	module:io
+io_dist	io.f90	/^ integer(4), parameter :: io_dist /;"	v	module:io
+io_dist2	io.f90	/^ integer(4), parameter :: io_dist2=/;"	v	module:io
+io_indx	io.f90	/^ integer(4), parameter :: io_indx /;"	v	module:io
+io_indx2	io.f90	/^ integer(4), parameter :: io_indx2=/;"	v	module:io
+io_inf_db	io.f90	/^ integer(4), parameter :: io_inf_db /;"	v	module:io
+io_log	io.f90	/^ integer(4), parameter :: io_log /;"	v	module:io
+io_rsa_db	io.f90	/^ integer(4), parameter :: io_rsa_db /;"	v	module:io
+io_sec_db	io.f90	/^ integer(4), parameter :: io_sec_db /;"	v	module:io
+io_set	io.f90	/^ subroutine io_set(/;"	s	module:io
+io_stat	io.f90	/^ integer(4), parameter :: io_stat /;"	v	module:io
+io_stat2	io.f90	/^ integer(4), parameter :: io_stat2=/;"	v	module:io
+io_tab_db	io.f90	/^ integer(4), parameter :: io_tab_db /;"	v	module:io
+io_v2c_db	io.f90	/^ integer(4), parameter :: io_v2c_db /;"	v	module:io
+io_vec_db	io.f90	/^ integer(4), parameter :: io_vec_db /;"	v	module:io
+io_zsco	io.f90	/^ integer(4), parameter :: io_zsco /;"	v	module:io
+io_zsco2	io.f90	/^ integer(4), parameter :: io_zsco2=/;"	v	module:io
+ipdb	sann.f90	/^ integer(4)   :: ipdb,/;"	v	program:sann
+iseq	sann.f90	/^ integer(1),  allocatable :: iseq(/;"	v	program:sann
+istart	params.f90	/^ integer(4)   :: istart(/;"	v	module:params
+iw_a21	io.f90	/^ integer(4), parameter :: iw_a21 /;"	v	module:io
+iw_a21f	io.f90	/^ integer(4), parameter :: iw_a21f /;"	v	module:io
+iw_a22	io.f90	/^ integer(4), parameter :: iw_a22 /;"	v	module:io
+iw_a22f	io.f90	/^ integer(4), parameter :: iw_a22f /;"	v	module:io
+iw_a23	io.f90	/^ integer(4), parameter :: iw_a23 /;"	v	module:io
+iw_a23f	io.f90	/^ integer(4), parameter :: iw_a23f /;"	v	module:io
+iw_a24	io.f90	/^ integer(4), parameter :: iw_a24 /;"	v	module:io
+iw_a24f	io.f90	/^ integer(4), parameter :: iw_a24f /;"	v	module:io
+iw_a3	io.f90	/^ integer(4), parameter :: iw_a3 /;"	v	module:io
+iw_a3f	io.f90	/^ integer(4), parameter :: iw_a3f /;"	v	module:io
+iw_cout	io.f90	/^ integer(4), parameter :: iw_cout /;"	v	module:io
+iw_dist	io.f90	/^ integer(4), parameter :: iw_dist /;"	v	module:io
+iw_prsaf	io.f90	/^ integer(4), parameter :: iw_prsaf=/;"	v	module:io
+iw_rsa	io.f90	/^ integer(4), parameter :: iw_rsa /;"	v	module:io
+iw_rsaf	io.f90	/^ integer(4), parameter :: iw_rsaf /;"	v	module:io
+iw_s3	io.f90	/^ integer(4), parameter :: iw_s3 /;"	v	module:io
+iw_s3f	io.f90	/^ integer(4), parameter :: iw_s3f /;"	v	module:io
+iw_s4	io.f90	/^ integer(4), parameter :: iw_s4 /;"	v	module:io
+iw_s4f	io.f90	/^ integer(4), parameter :: iw_s4f /;"	v	module:io
+iw_s8	io.f90	/^ integer(4), parameter :: iw_s8 /;"	v	module:io
+iw_s8f	io.f90	/^ integer(4), parameter :: iw_s8f /;"	v	module:io
+iw_sall	io.f90	/^ integer(4), parameter :: iw_sall /;"	v	module:io
+iw_seav	io.f90	/^ integer(4), parameter :: iw_seav /;"	v	module:io
+iw_sec3	io.f90	/^ integer(4), parameter :: iw_sec3 /;"	v	module:io
+iw_sec4	io.f90	/^ integer(4), parameter :: iw_sec4 /;"	v	module:io
+iw_sec8	io.f90	/^ integer(4), parameter :: iw_sec8 /;"	v	module:io
+iw_st21	io.f90	/^ integer(4), parameter :: iw_st21 /;"	v	module:io
+iw_st22	io.f90	/^ integer(4), parameter :: iw_st22 /;"	v	module:io
+iw_st23	io.f90	/^ integer(4), parameter :: iw_st23 /;"	v	module:io
+iw_st24	io.f90	/^ integer(4), parameter :: iw_st24 /;"	v	module:io
+iw_st30	io.f90	/^ integer(4), parameter :: iw_st30 /;"	v	module:io
+iw_stav	io.f90	/^ integer(4), parameter :: iw_stav /;"	v	module:io
+iw_zz	io.f90	/^ integer(4), parameter :: iw_zz /;"	v	module:io
+iw_zzf	io.f90	/^ integer(4), parameter :: iw_zzf /;"	v	module:io
+j	params.f90	/^ integer(4) :: i, j$/;"	v	module:params
+j	sann.f90	/^ integer(4)   :: i, j,/;"	v	program:sann
+jdx	sann.f90	/^ integer(4)   :: idx, jdx$/;"	v	program:sann
+jerr	sann.f90	/^ integer(4)   :: ierr, jerr$/;"	v	program:sann
+jj	params.f90	/^ integer(4),allocatable :: jj(/;"	v	module:params
+jres	sann.f90	/^ integer(4)   :: ipdb, jres$/;"	v	program:sann
+k	sann.f90	/^ integer(4)   :: i, j, k$/;"	v	program:sann
+k0	sann.f90	/^ integer(4) :: k0 /;"	v	program:sann
+k25	best.f90	/^ integer(4), parameter :: k25 /;"	v	module:best
+k25s	best.f90	/^ integer(4), parameter :: k25s=/;"	v	module:best
+k25ss	best.f90	/^ integer(4), parameter :: k25ss=/;"	v	module:best
+k30	best.f90	/^ integer(4), parameter :: k30 /;"	v	module:best
+k30s	best.f90	/^ integer(4), parameter :: k30s=/;"	v	module:best
+k35	best.f90	/^ integer(4), parameter :: k35 /;"	v	module:best
+k35s	best.f90	/^ integer(4), parameter :: k35s=/;"	v	module:best
+k40	best.f90	/^ integer(4), parameter :: k40 /;"	v	module:best
+k40s	best.f90	/^ integer(4), parameter :: k40s=/;"	v	module:best
+knn	params.f90	/^ integer(4), parameter :: knn=/;"	v	module:params
+length_a21	io.f90	/^ integer(4)   :: length_a21$/;"	v	module:io
+length_a22	io.f90	/^ integer(4)   :: length_a22$/;"	v	module:io
+length_a23	io.f90	/^ integer(4)   :: length_a23$/;"	v	module:io
+length_a24	io.f90	/^ integer(4)   :: length_a24$/;"	v	module:io
+length_a3	io.f90	/^ integer(4)   :: length_a3$/;"	v	module:io
+length_dist	io.f90	/^ integer(4)   :: length_dist$/;"	v	module:io
+length_dist2	io.f90	/^ integer(4)   :: length_dist2$/;"	v	module:io
+length_indx	io.f90	/^ integer(4)   :: length_indx$/;"	v	module:io
+length_indx2	io.f90	/^ integer(4)   :: length_indx2$/;"	v	module:io
+length_inf_db	io.f90	/^ integer(4)   :: length_inf_db$/;"	v	module:io
+length_rsa	io.f90	/^ integer(4)   :: length_rsa$/;"	v	module:io
+length_rsa_db	io.f90	/^ integer(4)   :: length_rsa_db$/;"	v	module:io
+length_s3	io.f90	/^ integer(4)   :: length_s3$/;"	v	module:io
+length_s4	io.f90	/^ integer(4)   :: length_s4$/;"	v	module:io
+length_s8	io.f90	/^ integer(4)   :: length_s8$/;"	v	module:io
+length_sec_db	io.f90	/^ integer(4)   :: length_sec_db$/;"	v	module:io
+length_stat	io.f90	/^ integer(4)   :: length_stat$/;"	v	module:io
+length_stat2	io.f90	/^ integer(4)   :: length_stat2$/;"	v	module:io
+length_v2c_db	io.f90	/^ integer(4)   :: length_v2c_db$/;"	v	module:io
+length_vec_db	io.f90	/^ integer(4)   :: length_vec_db$/;"	v	module:io
+length_zsco	io.f90	/^ integer(4)   :: length_zsco$/;"	v	module:io
+length_zsco2	io.f90	/^ integer(4)   :: length_zsco2$/;"	v	module:io
+length_zz	io.f90	/^ integer(4)   :: length_zz$/;"	v	module:io
+make_feature	sann.f90	/^subroutine make_feature(/;"	s
+mnn	params.f90	/^ integer(4), parameter :: mnn=/;"	v	module:params
+mres	params.f90	/^ integer(4),allocatable   :: mres(/;"	v	module:params
+mxacc	sacc.f90	/^ real(4)      :: mxacc(/;"	v	module:sacc
+mxnaa	params.f90	/^ integer(4) :: mxnaa /;"	v	module:params
+mxnaa_25	params.f90	/^ integer(4), parameter :: mxnaa_25=/;"	v	module:params
+mxnaa_30	params.f90	/^ integer(4), parameter :: mxnaa_30=/;"	v	module:params
+mxnaa_35	params.f90	/^ integer(4), parameter :: mxnaa_35=/;"	v	module:params
+mxnaa_40	params.f90	/^ integer(4), parameter :: mxnaa_40=/;"	v	module:params
+naa	sann.f90	/^ integer(4) :: naa$/;"	v	program:sann
+nargs	sann.f90	/^ integer(4)   :: nargs,/;"	v	program:sann
+ncode	params.f90	/^ integer(4) :: ncode /;"	v	module:params
+ncode_25	params.f90	/^ integer(4), parameter :: ncode_25=/;"	v	module:params
+ncode_30	params.f90	/^ integer(4), parameter :: ncode_30=/;"	v	module:params
+ncode_35	params.f90	/^ integer(4), parameter :: ncode_35=/;"	v	module:params
+ncode_40	params.f90	/^ integer(4), parameter :: ncode_40=/;"	v	module:params
+ndx	sann.f90	/^ integer(4), allocatable   :: ndx(/;"	v	program:sann
+nload	sann.f90	/^ integer(4)   :: nload,/;"	v	program:sann
+nnhome	io.f90	/^ character(100) :: nnhome /;"	v	module:io
+np	sann.f90	/^ integer  :: np=/;"	v	program:sann
+nres	params.f90	/^ integer(4),allocatable   :: nres(/;"	v	module:params
+nvec	params.f90	/^ integer(4) :: nvec /;"	v	module:params
+nvec_25	params.f90	/^ integer(4), parameter :: nvec_25=/;"	v	module:params
+nvec_30	params.f90	/^ integer(4), parameter :: nvec_30=/;"	v	module:params
+nvec_35	params.f90	/^ integer(4), parameter :: nvec_35=/;"	v	module:params
+nvec_40	params.f90	/^ integer(4), parameter :: nvec_40=/;"	v	module:params
+omp_get_thread_num	sann.f90	/^ integer  omp_get_thread_num$/;"	v	program:sann
+one20	share.f90	/^ character(1)  :: one20(/;"	v	module:share
+one22	share.f90	/^ character(1)  :: one22(/;"	v	module:share
+open_dist_file	io.f90	/^ subroutine open_dist_file(/;"	s	module:io
+open_indx_file	io.f90	/^ subroutine open_indx_file(/;"	s	module:io
+open_neighbor	io.f90	/^ subroutine open_neighbor(/;"	s	module:io
+open_neighbor_files	io.f90	/^ subroutine open_neighbor_files$/;"	s	module:io
+open_rsa_database	io.f90	/^ subroutine open_rsa_database(/;"	s	module:io
+open_vec_database	io.f90	/^ subroutine open_vec_database(/;"	s	module:io
+out_a21	io.f90	/^ logical :: out_a21 /;"	v	module:io
+out_a22	io.f90	/^ logical :: out_a22 /;"	v	module:io
+out_a23	io.f90	/^ logical :: out_a23 /;"	v	module:io
+out_a24	io.f90	/^ logical :: out_a24 /;"	v	module:io
+out_a3	io.f90	/^ logical :: out_a3 /;"	v	module:io
+out_dist	io.f90	/^ logical :: out_dist /;"	v	module:io
+out_prsa	io.f90	/^ logical :: out_prsa /;"	v	module:io
+out_rsa	io.f90	/^ logical :: out_rsa /;"	v	module:io
+out_zz	io.f90	/^ logical :: out_zz /;"	v	module:io
+outoff	io.f90	/^ subroutine outoff(/;"	s	module:io
+p	params.f90	/^ real(4),allocatable    :: p(/;"	v	module:params
+p2	sann.f90	/^ real(8),allocatable      :: p2(/;"	v	program:sann
+p3	sann.f90	/^ real(8),allocatable      :: p3(/;"	v	program:sann
+param_set	params.f90	/^ subroutine param_set(/;"	s	module:params
+params	params.f90	/^module params$/;"	m
+prf	sann.f90	/^ real(4),allocatable      :: prf(/;"	v	program:sann
+prsa	sann.f90	/^ real(4),allocatable      :: prsa(/;"	v	program:sann
+q	sann.f90	/^ real(4),allocatable      :: q(/;"	v	program:sann
+qsortd	qsortd.f90	/^SUBROUTINE qsortd(/;"	s
+ra	sacc.f90	/^ real(4)      :: ra /;"	v	module:sacc
+rsa	params.f90	/^ real   (4),allocatable :: rsa(/;"	v	module:params
+rsaa	sann.f90	/^ real(4),allocatable      :: rsaa(/;"	v	program:sann
+rsafile	io.f90	/^ character(100) :: rsafile /;"	v	module:io
+rtot	sann.f90	/^ real(4)      :: rtot$/;"	v	program:sann
+s3	sann.f90	/^ integer(1)   :: s3,/;"	v	program:sann
+s4	sann.f90	/^ integer(1)   :: s3,s4,/;"	v	program:sann
+s8	sann.f90	/^ integer(1)   :: s3,s4,s8$/;"	v	program:sann
+sa	sacc.f90	/^ integer(2)   :: sa /;"	v	module:sacc
+saa2	share.f90	/^ character(1)  :: saa2(/;"	v	module:share
+saa3	share.f90	/^ character(1)  :: saa3(/;"	v	module:share
+sacc	sacc.f90	/^module sacc$/;"	m
+sann	sann.f90	/^program sann$/;"	p
+secfile	io.f90	/^ character(100) :: secfile /;"	v	module:io
+seq	sann.f90	/^ character(1),allocatable :: seq(/;"	v	program:sann
+seq2num	share.f90	/^ subroutine seq2num(/;"	s	module:share
+seqn	params.f90	/^ integer(1),allocatable :: seqn(/;"	v	module:params
+share	share.f90	/^module share$/;"	m
+ss	sann.f90	/^ character(1) :: ss$/;"	v	program:sann
+ss_prof	io.f90	/^ integer(4), parameter :: ss_prof /;"	v	module:io
+sss3	share.f90	/^ character(1)  :: sss3(/;"	v	module:share
+sss4	share.f90	/^ character(1)  :: sss4(/;"	v	module:share
+sss8	share.f90	/^ character(1)  :: sss8(/;"	v	module:share
+st2	sacc.f90	/^ integer(1)   :: st3, st2(/;"	v	module:sacc
+st21	sann.f90	/^ integer(2)   :: st30(knn), st21(/;"	v	program:sann
+st22	sann.f90	/^ integer(2)   :: st30(knn), st21(knn), st22(/;"	v	program:sann
+st23	sann.f90	/^ integer(2)   :: st30(knn), st21(knn), st22(knn), st23(/;"	v	program:sann
+st24	sann.f90	/^ integer(2)   :: st30(knn), st21(knn), st22(knn), st23(knn), st24(/;"	v	program:sann
+st3	sacc.f90	/^ integer(1)   :: st3,/;"	v	module:sacc
+st30	sann.f90	/^ integer(2)   :: st30(/;"	v	program:sann
+stat2file	io.f90	/^ character(100) :: stat2file /;"	v	module:io
+state2	params.f90	/^ integer(1),allocatable :: state2(/;"	v	module:params
+state3	params.f90	/^ integer(1),allocatable :: state3(/;"	v	module:params
+statfile	io.f90	/^ character(100) :: statfile /;"	v	module:io
+str	sann.f90	/^ character(80):: stri/;"	v	program:sann
+string	sann.f90	/^ character(80):: string,/;"	v	program:sann
+tabfile	io.f90	/^ character(100) :: tabfile /;"	v	module:io
+thr2	sacc.f90	/^ real(4)      :: thr2(/;"	v	module:sacc
+thr3	sacc.f90	/^ real(4)      :: thr3(/;"	v	module:sacc
+three	params.f90	/^ integer(1),allocatable :: three(/;"	v	module:params
+time_begin	sann.f90	/^ real(4)      :: time_begin,/;"	v	program:sann
+time_end	sann.f90	/^ real(4)      :: time_begin, time_end,/;"	v	program:sann
+total_time	sann.f90	/^ real(4)      :: time_begin, time_end, elapsed_time, total_time$/;"	v	program:sann
+v2cfile	io.f90	/^ character(100) :: v2cfile /;"	v	module:io
+vec	params.f90	/^ real(4)      :: vec(/;"	v	module:params
+vecfile	io.f90	/^ character(100) :: vecfile /;"	v	module:io
+vsize	params.f90	/^ integer(4), parameter :: vsize=/;"	v	module:params
+w	params.f90	/^ real(4)      :: w(/;"	v	module:params
+win	params.f90	/^ integer(4), parameter :: win=/;"	v	module:params
+zeros	params.f90	/^ real(4)      :: zeros(/;"	v	module:params
+zexp	sann.f90	/^ real(8)      :: zexp$/;"	v	program:sann
+zsco	sann.f90	/^ real(4),allocatable      :: zsco(/;"	v	program:sann
+zsco2file	io.f90	/^ character(100) :: zsco2file /;"	v	module:io
+zscofile	io.f90	/^ character(100) :: zscofile /;"	v	module:io
+zz	sann.f90	/^ real(4)      :: zz$/;"	v	program:sann

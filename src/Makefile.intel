@@ -1,0 +1,55 @@
+# Nearest Neighbors
+# OPENMP Version
+# Keehyoung Joo at KIAS <newton@kias.re.kr>
+#
+
+FC= ifort
+
+#OPT = -fast -axT 
+#OPT = -O3 -axT -mcmodel=large -shared-intel
+OPT = -O3 -axT -heap-array
+OPT = -O3
+
+# for debuging
+#OPT = -CB
+#OPTMPI = -CB
+
+OPENMP	= -openmp -fpp
+OPENMP	= -openmp
+FLAGS 	= -c ${OPT} $(OPENMP)
+LDFLAGS 	= $(OPENMP)
+LIBS 		= 
+
+###########################################################
+
+target	=	sann
+
+all: $(target)
+
+.SUFFIXES: .f90 .o .mod .f .F
+
+.f90.o:
+	${FC} ${FLAGS} -o $@ $<
+
+.f90.mod:
+	${FC} ${FLAGS} -o $@ $<
+
+clean:
+	/bin/rm -rf *.o *.mod core* *.M *.x \
+
+install:
+	mv sann ../bin
+
+OBJ_COMMON		=	params.o io.o share.o sacc.o qsortd.o
+OBJ_SANN		=	sann.o
+
+sann: $(OBJ_COMMON) $(OBJ_SANN)
+	$(FC) -o $@ $(OPENMP) $(OPT) $(LDFLAGS) $(OBJ_COMMON) $(OBJ_SANN) $(LIBS)
+
+sann: sann.o io.o share.o sacc.o params.o qsortd.o
+io.o: io.f90
+sacc.o: sacc.f90
+share.o: share.f90
+params.o: params.f90
+qsortd.o: qsortd.f90
+utils.o: utils.f90
