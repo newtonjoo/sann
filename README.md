@@ -28,8 +28,6 @@ A Protein solvent accessibility prediction based on nearest neighbor method
 - Current       2016-02-01
 - First release 2015-01-21
 
-Example:
-
 ## Run a example
 
 input file: test.fa (a protein sequence in fasta format)
