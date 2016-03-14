@@ -15,23 +15,28 @@ A Protein solvent accessibility prediction based on nearest neighbor method
   $ make install
   
 *Set environment variable in your shell (ex: .bashrc)
+~~~
   export NNDB_HOME=$HOME/database/nndb
   export SANN_HOME=$HOME/sann
   export PATH=$PATH:$SANN_HOME/bin
-  
+~~~
+
 *Edit NCBIDIR and nr90 variable in the script “sann.sh”
 
 ## Update History:
 
-Current       2016-02-01
-First release 2015-01-21
+- Current       2016-02-01
+- First release 2015-01-21
 
 Example:
 
 ## Run a example
+
 input file: test.fa (a protein sequence in fasta format)
+~~~
    $ cd example
    $ sann.sh test
+~~~
 
 ## References
 
