@@ -9,10 +9,19 @@ A Protein solvent accessibility prediction based on nearest neighbor method
 ## Installation:
 
 *Download SANN package and build
+~~~
   $ tar xvzf sann.tar.gz
   $ cd sann/src
   $ make
   $ make install
+~~~
+
+*Download database
+~~~
+  nndb: http://lee.kias.re.kr/insilico/data/nndb.tar.gz
+  seqdb: http://lee.kias.re.kr/insilico/data/seqdb.tar.gz
+~~~
+
   
 *Set environment variable in your shell (ex: .bashrc)
 ~~~
