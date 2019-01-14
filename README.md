@@ -3,7 +3,7 @@ A Protein solvent accessibility prediction based on nearest neighbor method
 
 ## Pre-requisite:
     - Python, numpy
-    - Psi-blast (in NCBI tool)
+    - Psi-blast (blastpgp 2.2.23 [Feb-03-2010])
     - uniref90 sequence databse
 
 ## Installation:
