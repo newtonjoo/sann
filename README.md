@@ -18,8 +18,11 @@ A Protein solvent accessibility prediction based on nearest neighbor method
 
 *Download database
 ~~~
-  nndb: http://lee.kias.re.kr/insilico/data/nndb.tar.gz
-  seqdb: http://lee.kias.re.kr/insilico/data/seqdb.tar.gz
+
+  Download all: https://url.kr/nwv4bg
+  
+  - nndb: http://lee.kias.re.kr/insilico/data/nndb.tar.gz
+  - seqdb: http://lee.kias.re.kr/insilico/data/seqdb.tar.gz
 ~~~
 
   
